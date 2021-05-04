@@ -43,6 +43,13 @@ header h1{
 
 }
 
+#form-sec button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 #form-sec label{
     margin-top: 20px;
     display: inline-block;
