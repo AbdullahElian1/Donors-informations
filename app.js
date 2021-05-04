@@ -15,6 +15,7 @@ function Donor(name,ammount){
   this.ammount=ammount;
   this.age=0;
   Donor.allData.push(this);
+  
 }
 
 Donor.allData=[];
@@ -33,6 +34,8 @@ Donor.prototype.render=function(){
   let td2=document.createElement('td');
   tr.appendChild(td2);
   td2.textContent=this.ammount;
+  
+
 
 };
 
@@ -69,12 +72,16 @@ function getFromLs(){
   if(order){
     for(let i=0;i<order.length;i++){
       let reInst= new Donor(order[i].name,order[i].ammount);
+      reInst.render();
+      savetols();
+
       total+=parseInt(order[i].ammount);
 
-      reInst.render();
+
 
     }
     total2.innerHTML=`Total = ${total}`;
+
 
   }
 }
