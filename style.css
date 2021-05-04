@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+body{
+    background-image: url('https://www.bergenspromise.org/assets/images/donations/donate-background.jpg');
+    color: rgba(96, 96, 96,.8);
+   /* font-family: 'Roboto', sans-serif; */
+   
+}
+
+header{
+    background-color: #eee;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+header h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#form-sec{
+    float: left;
+    background-color: #eeeeeecf;
+    margin-top: 10%;
+    width: 40%;
+    margin-left:5% ;
+    position: relative;
+    min-height: 200px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+#form-sec input,select,button{
+    /* float: left; */
+    display: block;
+    margin-left: 45%;
+    width: 50%;
+    margin-top: 10px;
+
+}
+
+#form-sec label{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#table-sec{
+    float: left;
+    background-color: #eeeeeecf;
+    width: 40%;
+    margin-left:5% ;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+   
+
+
+}
+
+#table-sec table{
+    margin: 4% auto;
+    font-size:larger;
+    
+}
+
+#table-sec table th{
+    padding-top: 12px;
+    border: 2px solid white;
+
+
+}
+
+#table-sec table td{
+    padding-left: 15px;
+    padding-top: 15px;
+    border: 2px solid white;
+    text-align: center;
+    width: 1%;
+
+}
+
+#total{
+    text-align: center;
+    margin-top:5% ;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+
+
